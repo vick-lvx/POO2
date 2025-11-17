@@ -58,7 +58,33 @@ namespace AulaClasse2
             AlunoSenai alunosenai =  new AlunoSenai(17, "4022", "Vitória");
             Console.WriteLine(alunosenai.idade);
 
-            BancoDeDados bancoDeDados = new BancoDeDados("computador", 3306, "Vitória", "1234");     
+            BancoDeDados bancoDeDados = new BancoDeDados("computador", 3306, "Vitória", "1234");    
+            
+            //
+            // Atividade abstração1
+            //
+
+            Sesi sesi = new Sesi();
+            sesi.DescobrirNome();
+            sesi.CalcularMedia();
+
+            Senai senai = new Senai();
+            senai.DescobrirNome();
+            senai.CalcularMedia();
+
+            //
+            //Atividade absttacao2
+            //
+
+            Desenvolvedor desenvolvedor = new Desenvolvedor();
+            desenvolvedor.CalcularHorasExtras();
+
+            Bancario bancario = new Bancario();
+            bancario.CalcularHorasExtras();
+
+            GerenteTI gerenteTI = new GerenteTI();
+            gerenteTI.CalcularHorasExtras();
         }
+
     }
 }
