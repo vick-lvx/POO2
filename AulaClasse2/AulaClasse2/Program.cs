@@ -84,6 +84,45 @@ namespace AulaClasse2
 
             GerenteTI gerenteTI = new GerenteTI();
             gerenteTI.CalcularHorasExtras();
+
+            //
+            //MetodoConstrutor1
+            //
+
+            Passaro02 passaro02 = new Passaro02();
+            passaro02.Voar();
+            passaro02.Cantar();
+
+            //
+            //MetodoConstrutor2
+            //
+            Caixa caixa = new Caixa(3);
+            caixa.CalcularVolume();
+
+            //
+            //MetodoConstrutor3
+            //
+            Retângulo retangulo = new Retângulo();
+            retangulo.CalcularArea();
+
+            //
+            //MetodoConstrutor4
+            //
+            Aluno06 aluno06 = new Aluno06();
+            aluno06.Rg = "0000";
+            aluno06.Cpf = "1122344";
+            aluno06.nome = "Maria";
+            aluno06.idade = 17;
+
+            //
+            //MetodoConstrutor5
+            //
+            Filme filme = new Filme("00000", "00000", "0000", "000000", "00000");
+            
+
+
+
+            
         }
 
     }
