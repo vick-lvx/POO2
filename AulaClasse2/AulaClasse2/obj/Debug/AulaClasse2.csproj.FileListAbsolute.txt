@@ -1,0 +1,3 @@
+C:\Users\DTG-2025\Desktop\POO2\AulaClasse2\AulaClasse2\obj\Debug\AulaClasse2.csproj.AssemblyReference.cache
+C:\Users\DTG-2025\Desktop\POO2\AulaClasse2\AulaClasse2\obj\Debug\AulaClasse2.csproj.SuggestedBindingRedirects.cache
+C:\Users\DTG-2025\Desktop\POO2\AulaClasse2\AulaClasse2\obj\Debug\AulaClasse2.csproj.CoreCompileInputs.cache

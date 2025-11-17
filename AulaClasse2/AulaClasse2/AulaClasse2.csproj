@@ -43,11 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlunoSenai.cs" />
+    <Compile Include="BancoDeDados.cs" />
+    <Compile Include="Colaborador1.cs" />
+    <Compile Include="Conta.cs" />
+    <Compile Include="Coordenador.cs" />
+    <Compile Include="Corrente.cs" />
+    <Compile Include="Diretor.cs" />
+    <Compile Include="Forma.cs" />
+    <Compile Include="Moto.cs" />
+    <Compile Include="Poupanca.cs" />
+    <Compile Include="Professor4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quadrado.cs" />
+    <Compile Include="Veiculo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AtivPolimorfismo\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
